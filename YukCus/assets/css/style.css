@@ -1,0 +1,179 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url('../images/image-fond-devoir-boss-final.png');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+/* hauteur header = 724px */
+
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#menu{
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+
+/* hauteur 169px entre entete et texte entete*/
+
+#mainLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 95px;
+    text-align: center;
+    font-size: 15px;
+}
+
+div#mainLogo{
+    line-height: 30px;
+}
+
+div#mainLogo h1{
+    font-size: 50px;
+    line-height: 100px;
+}
+
+#container-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 69px;
+}
+
+/*28G 15H 21D 13B*/
+
+.bouttonV1{
+    color: white;
+    background-color: #89c9f0;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 21px 13px 28px;
+}
+
+.flex{
+    display: flex;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+li{
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+
+
+/* footer 391px de hauteur*/
+
+footer{
+    height: 391px;
+    background-color: #3e454c;
+}
+
+footer p{
+    font-size: 15px;
+    color: #9c9c9c;
+    line-height: 30px;
+}
+
+#divF1{
+    padding-top: 109px;
+    padding-left: 169px;
+}
+
+#divF2{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 100px;
+    padding-top: 109px;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+#subscribe{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px;
+    border-color: #c9c9c9;
+    height: 57px;
+    width: 313px;
+    padding-left: 20px;
+}
+
+.bouttonV2{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px;
+    border-color: #c9c9c9;
+    height: 61px;
+    background-color: #ff7f66;
+    color: white;
+}
+
+/* le main */
+
+div#article > p{
+    max-width: 632px;
+    color: #acacac;
+    font-size: 15px;
+    line-height: 30px;       
+}
+
+div#article > h2{
+    max-width: 400px;
+    color: #939393;
+    font-weight: bold;
+    font-size: 27px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#mainB{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    color: #acacac;
+    line-height: 30px;
+}
+
+#mainB h3{
+    color: #848484;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 70px;
+}
+
+.img{
+    margin-bottom: 70px;
+}
